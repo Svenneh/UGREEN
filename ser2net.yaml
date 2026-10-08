@@ -1,0 +1,6 @@
+connection: &conbee
+  accepter: tcp,20108
+  enable: on
+  options:
+    kickolduser: false
+  connector: serialdev,/dev/ttyACM0,115200n81,local,nobreak
